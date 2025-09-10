@@ -1,0 +1,21 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- CSS3 Logo -->
+  <defs>
+    <linearGradient id="cssGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1572b6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#33a9dc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- CSS3 Shield -->
+  <path d="M8,4 L56,4 L52,56 L32,60 L12,56 Z" fill="url(#cssGradient)"/>
+  
+  <!-- Inner design -->
+  <path d="M32,8 L32,56 L48,52 L51,8 Z" fill="#33a9dc"/>
+  
+  <!-- CSS3 styling -->
+  <polygon points="32,18 42,18 41,28 32,28 32,38 41,38 40,48 32,50 32,42 24,42 23,48 32,50 32,38 23,38 22,28 32,28 32,18 22,18 21,8 43,8 42,18" fill="white"/>
+  
+  <!-- 3 -->
+  <text x="32" y="30" font-family="Arial, sans-serif" font-size="8" fill="#1572b6" text-anchor="middle" font-weight="bold">3</text>
+</svg>

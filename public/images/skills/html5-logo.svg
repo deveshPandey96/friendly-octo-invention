@@ -1,0 +1,22 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- HTML5 Logo -->
+  <defs>
+    <linearGradient id="htmlGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e34f26;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f06529;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- HTML5 Shield -->
+  <path d="M8,4 L56,4 L52,56 L32,60 L12,56 Z" fill="url(#htmlGradient)"/>
+  
+  <!-- Inner shield -->
+  <path d="M32,8 L32,56 L48,52 L51,8 Z" fill="#ef652a"/>
+  <path d="M32,8 L13,8 L16,52 L32,56 Z" fill="#e34f26"/>
+  
+  <!-- HTML5 text and symbols -->
+  <polygon points="32,18 42,18 41,28 32,28 32,38 41,38 40,48 32,50 32,42 24,42 23,48 32,50 32,38 23,38 22,28 32,28 32,18 22,18 21,8 43,8 42,18" fill="white"/>
+  
+  <!-- 5 -->
+  <text x="32" y="30" font-family="Arial, sans-serif" font-size="8" fill="#e34f26" text-anchor="middle" font-weight="bold">5</text>
+</svg>

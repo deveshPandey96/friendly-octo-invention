@@ -1,0 +1,13 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- JavaScript Logo -->
+  <rect width="64" height="64" rx="6" fill="#f7df1e"/>
+  
+  <!-- JS Text -->
+  <g fill="#323330">
+    <!-- J -->
+    <path d="M20,12 L28,12 L28,36 Q28,44 20,44 Q12,44 12,36 L16,36 Q16,40 20,40 Q24,40 24,36 L24,16 L20,16 Z"/>
+    
+    <!-- S -->
+    <path d="M32,12 L52,12 L52,16 L36,16 L36,22 L48,22 L48,26 L36,26 L36,32 L52,32 L52,36 L32,36 L32,32 L44,32 L44,28 L32,28 L32,22 L44,22 L44,16 L32,16 Z"/>
+  </g>
+</svg>
