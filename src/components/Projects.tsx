@@ -17,7 +17,7 @@ const Projects: React.FC<ProjectsProps> = () => {
       id: 1,
       title: "E-Commerce Platform",
       description: "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
-      image: "placeholder1.jpg",
+      image: "/images/projects/ecommerce-platform.svg",
       liveLink: "https://example.com",
       githubLink: "https://github.com/example/project1"
     },
@@ -25,7 +25,7 @@ const Projects: React.FC<ProjectsProps> = () => {
       id: 2,
       title: "Task Management App",
       description: "A collaborative task management application with real-time updates, built using React, Socket.io, and Express.js.",
-      image: "placeholder2.jpg",
+      image: "/images/projects/task-management.svg",
       liveLink: "https://example.com",
       githubLink: "https://github.com/example/project2"
     },
@@ -33,7 +33,7 @@ const Projects: React.FC<ProjectsProps> = () => {
       id: 3,
       title: "Weather Dashboard",
       description: "A responsive weather dashboard that displays current conditions and forecasts using OpenWeather API and React.",
-      image: "placeholder3.jpg",
+      image: "/images/projects/weather-dashboard.svg",
       liveLink: "https://example.com",
       githubLink: "https://github.com/example/project3"
     }
@@ -48,8 +48,12 @@ const Projects: React.FC<ProjectsProps> = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <div key={project.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-              <div className="h-48 bg-gray-300 flex items-center justify-center">
-                <span className="text-gray-600">Project Image</span>
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src={project.image} 
+                  alt={project.title}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">

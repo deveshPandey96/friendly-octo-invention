@@ -1,0 +1,24 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Python Logo -->
+  <defs>
+    <linearGradient id="pythonBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#387eb8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#366994;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pythonYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd43b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe873;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Python snake shape -->
+  <path d="M32,8 Q48,8 48,24 L48,32 L16,32 Q16,16 32,16 Q40,16 40,24 Q40,32 32,32" fill="url(#pythonBlue)"/>
+  <path d="M32,32 Q16,32 16,48 L16,56 Q16,64 32,56 Q48,48 48,32 L32,32 Q24,32 24,40 Q24,48 32,48" fill="url(#pythonYellow)"/>
+  
+  <!-- Python eyes -->
+  <circle cx="38" cy="20" r="2" fill="white"/>
+  <circle cx="26" cy="44" r="2" fill="white"/>
+  
+  <!-- Text -->
+  <text x="32" y="36" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">Py</text>
+</svg>
